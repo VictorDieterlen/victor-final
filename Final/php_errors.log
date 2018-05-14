@@ -1,0 +1,22 @@
+[12-May-2018 02:05:07 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
+[12-May-2018 02:05:07 UTC] PHP Stack trace:
+[12-May-2018 02:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/index.php:0
+[12-May-2018 02:05:07 UTC] PHP   2. dbConnect() /home/ubuntu/workspace/Final/2018-05-11/index.php:11
+[12-May-2018 02:05:07 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/Final/2018-05-11/index.php:9
+[12-May-2018 02:05:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/Final/2018-05-11/index.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Final/2018-05-11/index.php(9): PDO->__construct('mysql:host= p2d...', 'eczi19dgi0sw30x...', 'rza60vj9ugl83t0...')
+#1 /home/ubuntu/workspace/Final/2018-05-11/index.php(11): dbConnect()
+#2 {main}
+  thrown in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
+[12-May-2018 02:06:50 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
+[12-May-2018 02:06:50 UTC] PHP Stack trace:
+[12-May-2018 02:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/index.php:0
+[12-May-2018 02:06:50 UTC] PHP   2. dbConnect() /home/ubuntu/workspace/Final/2018-05-11/index.php:11
+[12-May-2018 02:06:50 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/Final/2018-05-11/index.php:9
+[12-May-2018 02:06:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/Final/2018-05-11/index.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Final/2018-05-11/index.php(9): PDO->__construct('mysql:host= p2d...', 'eczi19dgi0sw30x...', 'rza60vj9ugl83t0...')
+#1 /home/ubuntu/workspace/Final/2018-05-11/index.php(11): dbConnect()
+#2 {main}
+  thrown in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9

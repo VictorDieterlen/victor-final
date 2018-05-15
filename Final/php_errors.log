@@ -1,31 +1,18 @@
-[12-May-2018 02:05:07 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
-[12-May-2018 02:05:07 UTC] PHP Stack trace:
-[12-May-2018 02:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/index.php:0
-[12-May-2018 02:05:07 UTC] PHP   2. dbConnect() /home/ubuntu/workspace/Final/2018-05-11/index.php:11
-[12-May-2018 02:05:07 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/Final/2018-05-11/index.php:9
-[12-May-2018 02:05:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/Final/2018-05-11/index.php:9
-Stack trace:
-#0 /home/ubuntu/workspace/Final/2018-05-11/index.php(9): PDO->__construct('mysql:host= p2d...', 'eczi19dgi0sw30x...', 'rza60vj9ugl83t0...')
-#1 /home/ubuntu/workspace/Final/2018-05-11/index.php(11): dbConnect()
-#2 {main}
-  thrown in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
-[12-May-2018 02:06:50 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
-[12-May-2018 02:06:50 UTC] PHP Stack trace:
-[12-May-2018 02:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/index.php:0
-[12-May-2018 02:06:50 UTC] PHP   2. dbConnect() /home/ubuntu/workspace/Final/2018-05-11/index.php:11
-[12-May-2018 02:06:50 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/Final/2018-05-11/index.php:9
-[12-May-2018 02:06:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/Final/2018-05-11/index.php:9
-Stack trace:
-#0 /home/ubuntu/workspace/Final/2018-05-11/index.php(9): PDO->__construct('mysql:host= p2d...', 'eczi19dgi0sw30x...', 'rza60vj9ugl83t0...')
-#1 /home/ubuntu/workspace/Final/2018-05-11/index.php(11): dbConnect()
-#2 {main}
-  thrown in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
-[15-May-2018 01:38:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
-[15-May-2018 01:38:09 UTC] PHP Stack trace:
-[15-May-2018 01:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0
-[15-May-2018 01:38:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
-[15-May-2018 01:38:18 UTC] PHP Stack trace:
-[15-May-2018 01:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0
-[15-May-2018 01:38:22 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
-[15-May-2018 01:38:22 UTC] PHP Stack trace:
-[15-May-2018 01:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0
+[15-May-2018 17:37:14 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/Final/2018-05-11/showSlot.php on line 27
+[15-May-2018 17:37:14 UTC] PHP Stack trace:
+[15-May-2018 17:37:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/showSlot.php:0
+[15-May-2018 17:40:21 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/Final/2018-05-11/showSlot.php on line 7
+[15-May-2018 17:40:21 UTC] PHP Stack trace:
+[15-May-2018 17:40:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/showSlot.php:0
+[15-May-2018 17:57:54 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/Final/2018-05-11/add.php on line 22
+[15-May-2018 17:57:54 UTC] PHP Stack trace:
+[15-May-2018 17:57:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/add.php:0
+[15-May-2018 17:57:54 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/Final/2018-05-11/add.php:22
+[15-May-2018 18:01:14 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home/ubuntu/workspace/Final/2018-05-11/add.php on line 22
+[15-May-2018 18:01:14 UTC] PHP Stack trace:
+[15-May-2018 18:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/add.php:0
+[15-May-2018 18:01:14 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/Final/2018-05-11/add.php:22
+[15-May-2018 19:36:09 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/Final/2018-05-11/add.php on line 22
+[15-May-2018 19:36:09 UTC] PHP Stack trace:
+[15-May-2018 19:36:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-11/add.php:0
+[15-May-2018 19:36:09 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/Final/2018-05-11/add.php:22

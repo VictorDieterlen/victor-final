@@ -20,3 +20,12 @@ Stack trace:
 #1 /home/ubuntu/workspace/Final/2018-05-11/index.php(11): dbConnect()
 #2 {main}
   thrown in /home/ubuntu/workspace/Final/2018-05-11/index.php on line 9
+[15-May-2018 01:38:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
+[15-May-2018 01:38:09 UTC] PHP Stack trace:
+[15-May-2018 01:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0
+[15-May-2018 01:38:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
+[15-May-2018 01:38:18 UTC] PHP Stack trace:
+[15-May-2018 01:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0
+[15-May-2018 01:38:22 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/Final/2018-05-14/index.php on line 54
+[15-May-2018 01:38:22 UTC] PHP Stack trace:
+[15-May-2018 01:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Final/2018-05-14/index.php:0

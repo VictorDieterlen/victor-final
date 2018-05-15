@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-                <?php
-                $bdd = new PDO("mysql:host=localhost;dbname=final", "victordieterlen", "");
-                ?>
-
 <html>
     <head>
         <title>Victor Dieterlen</title>
@@ -106,21 +102,7 @@
                     <a href="/Final/2018_05_14/">Final 2018-05-14</a><br />
                 </div>
                 <br /><br /><br /><br />
-                <?php
-                $reponse=$bdd->query('SELECT * FROM user');
-                
-            
-            while ($donnees = $reponse->fetch())
-            {
-            ?>
-                <div id="item">
-                    <strong>user: </strong> <?php echo $donnees['username']; ?><br />
-                    <strong>pass : </strong><?php echo $donnees['password']; ?> <br />
-                </div>
-        <?php
-        }
-        $reponse->closeCursor(); 
-    ?>
+
     </body>
     
         <footer>
@@ -129,7 +111,6 @@
             CST-336 Internet Programming. 2018&copy; Dieterlen <br />
             <strong>Disclaimer:</strong> The information in this webpage is fictious. <br />
             It is used for academic purpose only. <br />
-            <img id = "CSUMB" src="CSUMB.png" alt="CSUMB LOGO"/>
             </center>
         </footer>
 </html>
